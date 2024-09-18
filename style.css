@@ -1,0 +1,228 @@
+
+/* Définir les styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d83838;
+    width: auto;
+    overflow-x: hidden ;
+}
+
+/* Styles de l'en-tête */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e0e0e0;
+    padding: 10px 20px;
+}
+
+.header-left h1 {
+    margin: 0;
+}
+.header-left h1 span{
+   color: #00bfff;
+}
+
+.header-center span {
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 2rem;
+    position: relative;
+    left: 4rem;
+}
+.header-center span:hover {
+   color: #00bfff;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right input {
+    padding: 1rem;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+}
+
+.search-button {
+    background-color:#00bfff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 15px;
+    margin-left: 5px;
+    position: relative;
+    right: 3.2rem;
+}
+h2 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+h4 {
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+/* Section d'introduction */
+.introduction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background:#212F3D;
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+   
+}
+.intro-text span {
+    font-size: 1.7rem;
+}
+p {
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.intro-text {
+    max-width: 50%;
+}
+
+
+.name {
+    color: #00bfff;
+    font-weight: bold;
+}
+
+.highlight {
+    color: #00bfff;
+}
+
+.contact-button {
+    background-color: #00bfff;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+.contact-button:hover {
+    background-color: #D98880;
+    color: white;
+}
+
+/* Styles pour l'image hexagonale */
+.intro-image {
+    position: relative;
+    height: 5rem;
+    width: 5rem;
+
+}
+
+/*.hexagon {
+    width: 23rem;
+    height: 23rem;
+    background-color: #2f4f2f;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+
+/*.triangle {
+    width: 32rem;
+    height: 32rem;
+   background:  #2f4f2f;
+}*/
+img {
+    width: 22rem;
+    height: 29rem;
+    position: relative;
+    bottom: 12rem;
+    right: 19rem;
+    background: 0;
+    border-radius: 0;
+}
+
+/* Icônes de réseaux sociaux */
+.social-icons {
+    text-align: center;
+    padding: 20px;
+}
+
+.social-icons .icons i {
+   font-size: 3rem;
+    justify-content: center;
+    margin: 0 10px;
+    /*background-color: #00bfff;*/
+    border-radius: 100%;
+    height: 4rem;
+    width: 4rem;
+}
+.social-icons p {
+    color: rgb(214, 203, 203);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+/* Section "My Service" */
+.services {
+    background-color: #1C2833 ;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    
+
+}
+
+.services h2 {
+    margin: 0;
+    color: #00bfff;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    background-color: #616A6B;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    height: 20rem;
+    margin: 1rem;
+}
+
+.card-image1 {
+    background:url(image/D3.png);
+    background-size: cover;
+    background-position: center;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+.card-image2 {
+    background:url(image/D1.png);
+    background-size: cover;
+    background-position: center;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+.card-image3 {
+    background:url(image/I3.png);
+    background-size: cover;
+    background-position: center;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+
